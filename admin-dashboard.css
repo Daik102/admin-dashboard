@@ -3,22 +3,27 @@
   src: url(./fonts/Roboto-VariableFont_wdth\,wght.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: Play-Bold;
+  src: url(./fonts/Play-Bold.woff2) format('woff2');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 10px;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: Play-Bold, Arial, Helvetica, sans-serif;
 }
 
 :root {
   --main-theme: rgb(35, 35, 68);
-  --sub-theme: rgb(77, 77, 125);
+  --sub-theme: rgb(87, 87, 132);
   --item-theme: rgb(199, 199, 228);
   --button-theme: rgb(71, 71, 226);
   --accent-theme: rgb(46, 46, 87);
   --hover-theme: rgb(225, 225, 247);
-  --paragraph-theme: #3c3c3c;
+  --paragraph-theme: #444;
   --white-theme: rgb(239, 239, 255);
 }
 
@@ -88,7 +93,7 @@ ul {
   grid-template-rows: repeat(3, 2.4rem);
 }
 
-.sidebar ul li {
+.sidebar li {
   display: grid;
   grid-template-columns: 2.4rem 14rem;
 }
@@ -225,13 +230,13 @@ ul {
   display: grid;
   grid-template-columns: 1fr 30rem;
   grid-template-rows: 36rem 36rem;
-  gap: 2.4rem;
+  gap: 2.4rem 4rem;
   padding: 2.8rem 1.6rem 0 3.2rem;
 }
 
 .main h3 {
   color: var(--white-theme);
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   padding-bottom: 2rem;
 }
 
@@ -246,24 +251,28 @@ ul {
   gap: 2.4rem;
 }
 
-.projects ul li {
+.projects li {
   background-image: linear-gradient(90deg, var(--accent-theme) 0.8rem, var(--item-theme) 0);
   width: 36rem;
   height: 20rem;
-  padding: 2rem;
   border-radius: 0.8rem;
-  display: grid;
-  grid-template-columns: 1fr 2rem 2rem 2rem;
-  grid-template-rows: 2rem 10rem 2rem;
-  gap: 1.2rem;
+  box-shadow: 0.8rem 0.8rem 0.8rem 0 rgba(5, 5, 11, 0.2);
   cursor: pointer;
 }
 
-.projects ul li:hover {
+.projects a {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2rem 2rem 2rem;
+  grid-template-rows: 2.4rem 10rem 2rem;
+  gap: 1.2rem;
+}
+
+.projects li:hover {
   background-image: linear-gradient(90deg, rgb(255, 175, 26) 0.8rem, var(--hover-theme) 0);
 }
 
-.projects ul li:last-child {
+.projects li:last-child {
   margin-bottom: 2rem;
 }
 
@@ -279,7 +288,9 @@ ul {
   grid-column: 1 / 5;
   grid-row: 2;
   font-size: 1.8rem;
+  line-height: 1.4;
   color: var(--paragraph-theme);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .projects img {
@@ -288,7 +299,7 @@ ul {
   filter: invert(7%) sepia(48%) saturate(2463%) hue-rotate(224deg) brightness(96%) contrast(85%);
 }
 
-.icon-one {
+.first-icon {
   grid-column: 2;
 }
 
@@ -299,6 +310,7 @@ ul {
   border-radius: 0.8rem;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
+  box-shadow: 0.8rem 0.8rem 0.8rem 0 rgba(5, 5, 11, 0.2);
 }
 
 .announcements li {
@@ -323,12 +335,14 @@ ul {
 .announcements h5 {
   font-size: 1.8rem;
   color: var(--main-theme);
+  margin-bottom: 0.4rem;
 }
 
 .announcements p {
   font-size: 1.4rem;
   padding: 0.2rem 0;
   color: var(--paragraph-theme);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .trending ul {
@@ -338,6 +352,7 @@ ul {
   border-radius: 0.8rem;
   display: grid;
   grid-template-rows: repeat(4, 7.5rem);
+  box-shadow: 0.8rem 0.8rem 0.8rem 0 rgba(5, 5, 11, 0.2);
 }
 
 .trending li {
@@ -373,6 +388,7 @@ ul {
   font-weight: 600;
   color: var(--main-theme);
   margin-bottom: 0.2rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .trending p {
