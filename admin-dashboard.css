@@ -293,6 +293,12 @@ ul {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.projects span {
+  font-size: 1.8rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
 .projects img {
   width: 100%;
   height: auto;
