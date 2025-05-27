@@ -1,11 +1,11 @@
 @font-face {
-  font-family: Roboto;
-  src: url(./fonts/Roboto-VariableFont_wdth\,wght.woff2) format('woff2');
+  font-family: Play-Bold;
+  src: url(./fonts/Play-Bold.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: Play-Bold;
-  src: url(./fonts/Play-Bold.woff2) format('woff2');
+  font-family: Roboto;
+  src: url(./fonts/Roboto-VariableFont_wdth\,wght.woff2) format('woff2');
 }
 
 * {
