@@ -43,7 +43,7 @@ ul {
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 30rem 1fr;
+  grid-template-columns: 32rem 1fr;
   grid-template-rows: 18rem 1fr;
 }
 
@@ -51,13 +51,13 @@ ul {
   grid-column: 1;
   grid-row: 1 / 3;
   background-color: var(--main-theme);
-  padding: 3.6rem 0 0 5.2rem;
+  padding: 3.6rem 0 0 5.6rem;
   border-right: 0.1rem solid var(--white-theme);
 }
 
 .sidebar div {
   display: grid;
-  grid-template-columns: 3.6rem 1fr;
+  grid-template-columns: 3.8rem 1fr;
   align-items: center;
   gap: 1.2rem;
   margin-bottom: 4rem;
@@ -65,7 +65,7 @@ ul {
 
 .sidebar h2 {
   color: var(--item-theme);
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -77,12 +77,12 @@ ul {
 .sidebar ul {
   display: grid;
   align-items: center;
-  gap: 2rem;
+  gap: 2.8rem;
   padding: 0 1.2rem;
 }
 
 .first-ul {
-  margin-bottom: 6.6rem;
+  margin-bottom: 8rem;
 }
 
 .sidebar ul:first-child {
@@ -95,7 +95,7 @@ ul {
 
 .sidebar li {
   display: grid;
-  grid-template-columns: 2.4rem 14rem;
+  grid-template-columns: 2.8rem 14rem;
 }
 
 .sidebar img {
@@ -107,7 +107,7 @@ ul {
 
 .sidebar p {
   color: var(--item-theme);
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
   padding-left: 2rem;
   cursor: pointer;
@@ -232,7 +232,7 @@ ul {
   grid-row: 2;
   background-color: var(--sub-theme);
   display: grid;
-  grid-template-columns: 1fr 30rem;
+  grid-template-columns: 1fr 34rem;
   grid-template-rows: 36rem 36rem;
   gap: 2.4rem 4rem;
   padding: 2.8rem 1.6rem 0 3.2rem;
@@ -315,7 +315,7 @@ ul {
 
 .announcements ul {
   background-color: var(--item-theme);
-  width: 28rem;
+  width: 30rem;
   height: 30rem;
   border-radius: 0.8rem;
   display: grid;
@@ -357,7 +357,7 @@ ul {
 
 .trending ul {
   background-color: var(--item-theme);
-  width: 28rem;
+  width: 30rem;
   height: 30rem;
   border-radius: 0.8rem;
   display: grid;
@@ -370,7 +370,7 @@ ul {
   grid-template-columns: 5rem 1fr;
   align-items: center;
   gap: 1.2rem;
-  padding: 1.25rem 2rem 1.25rem;
+  padding: 1.25rem 2.4rem 1.25rem;
   cursor: pointer;
 }
 
@@ -391,6 +391,10 @@ ul {
   height: 4.8rem;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.orca {
+  object-position: -2rem;
 }
 
 .trending h6 {
