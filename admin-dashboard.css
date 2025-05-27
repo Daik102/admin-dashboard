@@ -192,6 +192,10 @@ ul {
   background-color: var(--hover-theme);
 }
 
+.header a:hover {
+  opacity: 0.8;
+}
+
 .header span {
   color: var(--white-theme);
   font-size: 2rem;
