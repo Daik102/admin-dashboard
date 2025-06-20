@@ -330,7 +330,7 @@ ul {
 }
 
 .announcements li:hover {
-  background-color: rgb(231, 231, 248);
+  background-color: var(--white-theme);
 }
 
 .announcements li:first-child {
