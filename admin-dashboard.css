@@ -132,7 +132,7 @@ ul {
 
 .header ul:first-child {
   display: grid;
-  grid-template-columns: 2.4rem 1fr 2.4rem 4.4rem 6.4rem;
+  grid-template-columns: 2.4rem 1fr 2.4rem 4rem 6rem;
   gap: 2rem;
   align-items: center;
 }
@@ -169,6 +169,13 @@ ul {
   height: 4.4rem;
 }
 
+.username {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--white-theme)
+}
+
 .main-photo {
   width: 5.6rem;
   height: 5.6rem;
@@ -179,7 +186,7 @@ ul {
 }
 
 .header input {
-  width: 100%;
+  width: 85%;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   border: none;
@@ -206,9 +213,19 @@ ul {
 
 .header p {
   color: var(--white-theme);
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
   margin-left: 2.4rem;
+}
+
+.odin-link {
+  color: var(--white-theme);
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.odin-link:hover {
+  text-decoration: underline;
 }
 
 .header button {
@@ -219,8 +236,7 @@ ul {
   border-radius: 2rem;
   background-color: var(--button-theme);
   color: var(--white-theme);
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -325,7 +341,7 @@ ul {
 }
 
 .announcements li {
-  padding: 1.2rem 2rem 0.8rem;
+  padding: 0.8rem 2rem;
   border-bottom: 0.1rem solid var(--white-theme);
   cursor: pointer;
 }
@@ -350,7 +366,7 @@ ul {
 }
 
 .announcements p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 0.2rem 0;
   color: var(--paragraph-theme);
   font-family: Roboto, Arial, Helvetica, sans-serif;
