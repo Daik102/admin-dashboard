@@ -139,7 +139,7 @@ ul {
 
 .header ul:last-child {
   display: grid;
-  grid-template-columns: 3rem 1fr 10rem 10rem 10rem;
+  grid-template-columns: 1fr 10rem 10rem 10rem;
   gap: 2rem;
   align-items: center;
   margin-right: 2rem;
@@ -152,21 +152,17 @@ ul {
   cursor: pointer;
 }
 
-.sub-photo,
-.main-photo {
+.sub-photo {
+  width: 4.8rem;
+  height: 4.8rem;
   border-radius: 50%;
   object-fit: cover;
+  object-position: -1.8rem;
   cursor: pointer;
 }
 
-.sub-photo:hover,
-.main-photo:hover {
+.sub-photo:hover {
   opacity: 0.85;
-}
-
-.sub-photo {
-  width: 4.4rem;
-  height: 4.4rem;
 }
 
 .username {
@@ -175,11 +171,6 @@ ul {
   font-weight: 600;
   color: var(--white-theme)
 }
-
-.main-photo {
-  width: 5.6rem;
-  height: 5.6rem;
-} 
 
 .header ul div {
   max-width: 60rem;
@@ -215,7 +206,6 @@ ul {
   color: var(--white-theme);
   font-size: 2.4rem;
   font-weight: 500;
-  margin-left: 2.4rem;
 }
 
 .odin-link {
@@ -404,14 +394,10 @@ ul {
 }
 
 .trending img {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   object-fit: cover;
-}
-
-.orca {
-  object-position: -2rem;
 }
 
 .trending h6 {
