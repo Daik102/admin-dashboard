@@ -17,14 +17,16 @@
 }
 
 :root {
-  --main-theme: rgb(35, 35, 68);
-  --sub-theme: rgb(87, 87, 132);
-  --item-theme: rgb(199, 199, 228);
-  --button-theme: rgb(71, 71, 226);
-  --accent-theme: rgb(46, 46, 87);
-  --hover-theme: rgb(225, 225, 247);
+  --main-theme: #232344;
+  --sub-theme: #575784;
+  --item-theme: #c7c7e4;
+  --button-theme: #4747e2;
+  --accent-theme: #2e2e57;
+  --hover-theme: #e1e1f7;
+  --button-hover-theme: #6969ff;
+  --orange-theme: #ffaf1a;
   --paragraph-theme: #444;
-  --white-theme: rgb(239, 239, 255);
+  --white-theme: #efefff;
 }
 
 body {
@@ -169,7 +171,7 @@ ul {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
-  color: var(--white-theme)
+  color: var(--white-theme);
 }
 
 .header ul div {
@@ -231,7 +233,7 @@ ul {
 }
 
 .header button:hover {
-  background-color: rgb(105, 105, 255);
+  background-color: var(--button-hover-theme);
 }
 
 .main {
@@ -240,7 +242,7 @@ ul {
   background-color: var(--sub-theme);
   display: grid;
   grid-template-columns: 1fr 34rem;
-  grid-template-rows: 36rem 36rem;
+  grid-template-rows: 36rem;
   gap: 2.4rem 4rem;
   padding: 2.8rem 1.6rem 0 3.2rem;
 }
@@ -280,7 +282,7 @@ ul {
 }
 
 .projects li:hover {
-  background-image: linear-gradient(90deg, rgb(255, 175, 26) 0.8rem, var(--hover-theme) 0);
+  background-image: linear-gradient(90deg, var(--orange-theme) 0.8rem, var(--hover-theme) 0);
 }
 
 .projects li:last-child {
