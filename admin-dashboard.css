@@ -557,7 +557,7 @@ html {
   }
 }
 /* For laptops and desktops */
-@media screen and (orientation: landscape) and (min-width: 94rem) {
+@media screen and (orientation: landscape) and (min-width: 93.25rem) {
   .container {
     grid-template-columns: 32rem 1fr;
     grid-template-rows: 24rem 1fr;
